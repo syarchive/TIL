@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+}
+
+.child{
+  displat: inline-block;
+  flex: 1;
+  margin: 40px;
+  border: 1px solid #d1d1d1;
+}
+
+.parent{
+  text-align: center;
+  display: flex;
+}
