@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"> //html 언어가 영어
+<head>
+    <meta charset="UTF-8">
+    <!--화면 너비에 따라 반응하는 웹-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+    <!-- Facebook Meta Tags / 페이스북 오픈 그래프 -->
+    <meta property="og:url" content="http://kindtiger.dothome.co.kr/insta">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="instagram">
+    <meta property="og:description" content="instagram clone">
+    <meta property="og:image" content="http://kindtiger.dothome.co.kr/insta/imgs/instagram.jpeg">
+    .
+    <!-- Twitter Meta Tags / 트위터 -->
+    <meta name="twitter:card" content="instagram clone">
+    <meta name="twitter:title" content="instagram">
+    <meta name="twitter:description" content="instagram clone">
+    <meta name="twitter:image" content="http://kindtiger.dothome.co.kr/insta/imgs/instagram.jpeg">
+
+    <!-- Google / Search Engine Tags / 구글 검색 엔진 -->
+    <meta itemprop="name" content="instagram">
+    <meta itemprop="description" content="instagram clone">
+    <meta itemprop="image" content="http://kindtiger.dothome.co.kr/insta/imgs/instagram.jpeg">
+
+    <!--각 Style CSS 코드에 따라 디자인-->
+    <title>instagram</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="imgs/instagram.png">
+
+
+</head>
+<body>
+
+
+<section id="container">
+
+
+
+    <header id="header">
+        <section class="h_inner">
+            <!--인스타그램 아이콘 or 로고 클릭시 index.html 페이지로 이동-->
+            <h1 class="logo">
+                <a href="index.html">
+                    <div class="sprite_insta_icon"></div>
+                    <div>
+                        <div class="sprite_write_logo"></div>
+                    </div>
+                </a>
+            </h1>
+            <!--//아무것도 검색하지 않았을 때 검색이라는 텍스트가 기본으로 깔려있음-->
+            <div class="search_field">
+                <input type="text" placeholder="검색" tabindex="0">
+
+                <!--/ 왼쪽의 검색 아이콘-->
+                <div class="fake_field">
+                    <span class=sprite_small_search_icon></span>
+                    <span>검색</span>
+                </div>
+            </div>
+
+            <!-- // 아이콘 클릭 시 new_post.html 페이지로 이동-->
+            <div class="right_icons">
+                <a href="new_post.html"><div class="sprite_camera_icon"></div></a>
+                <!-- // 아이콘 클릭시 login.html 페이지로 이동-->
+                <a href="login.html"><div class="sprite_compass_icon"></div></a>
+                <!--아이콘 클릭시 follow.html로 이동-->
+                <a href="follow.html"><div class="sprite_heart_icon_outline"></div></a>
+                <a href="profile.html"><div class="sprite_user_icon_outline"></div></a>
+            </div>
+        </section>
+    </header>
+
+
+
+    <div id="main_container">
+
+        <div class="form_container">
+
+            <div class="form">
+
+              <!--로그인 폼 가장 위에 큰 로고-->
+                <h1 class="sprite_insta_big_logo title"></h1>
+                <!--아이디 치는 input 칸-->
+                <form action="#">
+                    <p class="login_user_name">
+                        <label for="user_name">사용자명:</label>
+                        <input type="text" id="user_name">
+                    </p>
+                    <!--비밀번호 치는 input 칸-->
+                    <p class="login_user_password">
+                        <label for="user_password">비밀번호:</label>
+                        <input type="text" id="user_password">
+                    </p>
+                    <!--로그인 버튼 클릭하면 로그인 됨-->
+                    <input type="submit" id="submit_btn" value="로그인" class="submit_btn">
+                </form>
+
+
+
+            </div>
+            <!--회원가입 클릭 시 form으로 이동-->
+            <div class="bottom_box">
+                <div>
+                    <span>아이디가 없으신가요?</span><a href="#">회원가입</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<script src="js/insta.js"></script>
+</body>
+</html>
