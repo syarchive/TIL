@@ -1,0 +1,78 @@
+body {
+  font-family: '맑은 고딕';
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+}
+
+header {
+  margin: 0 auto;
+  border-bottom: 1px solid #ebebeb;
+}
+
+li{
+  list-style: none;
+}
+
+.airbnb_header{
+  float: center;
+}
+
+.right_menu{
+  display: inline-block;
+  float: center;
+}
+
+.find_title {
+  margin: 20px auto;
+  font-weight: bold;
+  font-size: 23px;
+  color: #222222;
+}
+
+.content_title {
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.content_explanation {
+  margin: 20px auto;
+}
+
+.all_info {
+  margin: 20px auto;
+  text-decoration: underline;
+}
+
+.last {
+  border-top: 1px solid #ebebeb;
+  margin: 20px auto;
+}
+
+.info {
+  margin: 20px auto;
+}
+
+.community {
+  margin: 20px auto;
+}
+
+.hosting {
+  margin: 20px auto;
+}
+
+.support {
+  margin: 20px auto;
+}
+
+.last_title {
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.last_content {
+  margin: 10px auto;
+}
