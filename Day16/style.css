@@ -1,0 +1,396 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', san-sans-serif;
+  align-items: center;
+}
+
+#search input{
+  background-image:url(data/search.png);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-size: 18px;
+  box-sizing: border-box;
+}
+
+input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  width: 400px;
+  font-size: 17px;
+  font-weight: bold;
+  float: left;
+  margin-left: -260px;
+  outline: none;
+  border-radius: 5px;
+  border-color: transparent !important;
+  box-shadow: 1px 1px 8px 1px #dfdede;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #222222;
+}
+
+.airbnb_header{
+  width: 1440px
+  margin: 0 auto;
+}
+
+header {
+  width:100%;
+  height:80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebebeb;
+}
+
+ul{
+  list-style: none;
+}
+
+nav{
+  width: 400px;
+  height: 100%;
+}
+
+header ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+  margin-left: 200px;
+}
+
+header li {
+	font-size: 14px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+  font-weight: bold;
+  color: #222222;
+}
+
+.last li {
+  float: inherit;
+}
+
+.logo{
+  margin-left: 18px;
+}
+
+.find{
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.find_title {
+  font-weight: bold;
+  font-size: 23px;
+  color: #222222;
+}
+
+.find_content{
+  margin-left: 27px;
+  margin-top: 38px;
+  float:left;
+  font-weight: bold;
+}
+
+.content_title {
+  font-size: 23px;
+  margin-left: 90px;
+}
+
+.content_explanation {
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.find_residence{
+  float: left;
+  width: 400px;
+  height: 90px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px 1px #dfdede;
+  margin-top: 20px;
+}
+
+.find_experience{
+  float: left;
+  width: 400px;
+  height: 90px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px 1px #dfdede;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.find_adventure{
+  float: left;
+  width: 400px;
+  height: 90px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px 1px #dfdede;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.best_activity{
+  margin-top: 200px;
+}
+
+.plus{
+  margin-top: 200px;
+}
+
+.plus_photo{
+  float:center;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.adventure{
+  margin-top: 100px;
+}
+
+.star_point {
+  float: left;
+  margin-left: 4px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.comment{
+  float: left;
+  margin-left: 2px;
+  font-size: 14px;
+  margin-top: 6px;
+  color: #717171;
+}
+
+.all_of_residence{
+  margin-top: 100px;
+  float: left;
+}
+
+.all_nation{
+  margin-top: 15px;
+  color: #717171;
+  font-size: 14px;
+}
+
+.all_explanation {
+  width: 300px;
+  margin-top: 8px;
+  word-break: normal;
+}
+
+.spain{
+  float: left;
+  margin-left: 90px;
+  margin-top: 15px;
+}
+
+.colombia{
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.spain2{
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.uk{
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.america3{
+  float: left;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.thailand{
+  float: left;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.america4{
+  float: left;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.indonesia2{
+  float: left;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.plus_recommendation{
+  margin-top: 100px;
+  float: left;
+}
+
+.norway{
+  float: left;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.indonesia{
+  float: left;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.america{
+  float: left;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.arab{
+  float: left;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.america2{
+  float: left;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+
+.nation{
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.content_info{
+  width: 235px;
+  margin-top: 10px;
+  font-size: 16px;
+  word-break: normal;
+}
+
+.milano{
+  float: left;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.sanfransico{
+  float: left;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.chicago{
+  float: left;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.recommend_info{
+  margin-top: 5px;
+  font-weight: bold;
+  color: #884b68;
+  font-size: 12px;
+}
+
+.recommend_explantion {
+  width: 410px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #484848;
+  word-break: normal;
+}
+
+.all_info {
+  text-decoration: underline;
+  margin-left: 90px;
+  margin-top: 60px;
+}
+
+.last {
+  width: 1440px;
+  float: left;
+  border-top: 1px solid #ebebeb;
+  margin: 50px auto;
+  padding-top: 40px;
+}
+
+.info {
+  float: left;
+  margin-left: 60px;
+}
+
+.info li{
+  margin-top: 20px;
+}
+
+.community {
+  float: left;
+  margin-left: 150px;
+}
+
+.community li{
+  margin-top: 20px;
+}
+
+.hosting {
+  float: left;
+  margin-left: 150px;
+}
+
+.hosting li{
+  margin-top: 20px;
+}
+
+.support {
+  float: left;
+  margin-left: 150px;
+}
+
+.support li{
+  margin-top: 20px;
+}
+
+.last_title {
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.last_content {
+  font-size: 15px;
+  margin: 10px auto;
+}
+
+.profile {
+ width: 20px;
+ height: 20px;
+ margin-left: 10px;
+}
